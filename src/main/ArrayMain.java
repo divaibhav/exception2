@@ -27,7 +27,7 @@ public class ArrayMain {
 
         }
         if(!response){
-            throw new NoElementFoundException("Element No found");
+            throw new NoElementFoundException("Element Not found");
         }
 
         return response;
